@@ -12,3 +12,12 @@ class Children(Parents):
         print(self.age)
         print(self.height)
 daun = Children()
+
+class Hello:
+    def  __init__(self):
+        print('Hello')
+class Hello_World(Hello):
+    def __init__(self):
+        super().__init__()
+        print ("World")
+HELLO_WORLD = Hello_World()
