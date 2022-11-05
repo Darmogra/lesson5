@@ -1,23 +1,17 @@
-class Grandparents:
-    height = 170
-    age = 60
-    sick = 'COVID'
+import requests
+def first_functuon():
+    ...
+class FirstClass:
+    ...
+rq = requests
+first_f = first_functuon
+nazae = FirstClass
+print(requests.__name__)
+print(rq.__name__)
+print (first_functuon. __name__)
+print(__name___)
+print(type(__name__))
 
-class Parents(Grandparents):
-    age = 40
-class Children(Parents):
-    height = 180
-    def __init__(self):
-        print(self.sick)
-        print(self.age)
-        print(self.height)
-daun = Children()
-
-class Hello:
-    def  __init__(self):
-        print('Hello')
-class Hello_World(Hello):
-    def __init__(self):
-        super().__init__()
-        print ("World")
-HELLO_WORLD = Hello_World()
+ls = []
+for i in dir (ls):
+    print(i)
